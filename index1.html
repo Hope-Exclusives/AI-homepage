@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="style1.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+  <script defer src="main.js"></script>
+  <title>Astra AI | Landing Page</title>
+</head>
+<body>
+  <header>
+    <iframe src="./Assets/Audio/glitch.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+    <audio id="audio" controls autoplay loop>
+      <source src="./Assets/Audio/glitch.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+    <audio id="powerOn" controls loop>
+      <source src="./Assets/Audio/glitch.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="powerOff" controls>
+      <source src="./Assets/Audio/shut-down.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="hover" controls>
+      <source src="./Assets/Audio/hover.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+      <div class="header-content d-flex align-items-center justify-content-between flex-wrap">
+        <div class="bottom-shape"></div>
+        <div class="site-logo">
+          <img src="./Assets/imgs/site-logo.svg" alt="site-logo" class="img-fluid">
+        </div>
+        <div class="menu">
+          <ul class="nav d-flex flex-row flex-wrap">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Chat</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Voice</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Models</a></li>
+          </ul>
+        </div>
+        <div class="search-bar">
+          <img src="./Assets/imgs/search-icon.svg" alt="search-icon" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="banner">
+    <div class="robot">
+      <img src="./astraai.png" alt="robot" class="img-fluid">
+    </div>
+    <div class="circuit-art">
+      <img src="./Assets/imgs/GoodArtwork.svg" alt="GoodArtwork" class="img-fluid">
+    </div>
+    <div class="machine-art">
+      <div class="machine-art-container">
+        <img src="./Assets/imgs/machin-rings.svg" alt="GoodArtwork" class="img-fluid">
+        <div class="machine-lights-container">
+          <img src="./Assets/imgs/machine-lights.svg" alt="GoodArtwork" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="circuit-art red">
+      <img src="./Assets/imgs/GoodArtwork-red.svg" alt="GoodArtwork" class="img-fluid">
+    </div>
+    <div class="banner-content">
+      <div class="container">
+        <div class="banner-title">
+          <h1>artificial INTElligence</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="blue-content">
+              <p class="p-lg text-pipe blue-text">Welcome To The Future</p>
+              <p>Built to amplify minds, challenge boundaries, and rewrite how the world works.</p>
+              <a href="#" id="play">
+                <p class="on">MACHINE ON</p>
+                <p class="off">MACHINE OFF</p>
+                <span>
+                  <span class="arrow"></span>
+                  <img src="./Assets/imgs/button-circle.svg" alt="button-circle" class="img-fluid">
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="red-content">
+              <div class="polygone-container">
+                <div class="polygone">
+                  <img src="astra4.png" alt="artificial" class="img-fluid">
+                </div>
+                <div class="polygone-content">
+                  <p class="red-text"><span>Artificial Intelligence</span></p>
+                  <p>This is only beginning</p>
+                </div>
+              </div>
+              <div class="polygone-container">
+                <div class="polygone">
+                  <img src="hope.png" alt="artificial" class="img-fluid">
+                </div>
+                <div class="polygone-content">
+                  <p class="red-text"><span>Fast Revolution</span></p>
+                  <p>Everything changes from here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="boon-bane-container d-flex flex-column flex-md-row">
+              <div class="boon">
+                <img src="./Assets/imgs/BOON.png" alt="boon" class="img-fluid">
+                <h1>A<span>S</span>TRA</h1>
+              </div>
+              <div class="bane">
+                <img src="./Assets/imgs/BANE.png" alt="bane" class="img-fluid">
+                <h1>SOF<span>T</span></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

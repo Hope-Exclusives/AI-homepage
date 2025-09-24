@@ -27,14 +27,14 @@
           Your browser does not support the audio element.
         </audio>
         <audio id="hover" controls>
-          <source src="https://www.yudiz.com/codepen/artificial-intelligence/audio/hover.mp3" type="audio/mpeg">
+          <source src="./Assets/Audio/hover.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
         <div class="container">
           <div class="header-content">
             <div class="bottom-shape"></div>
             <div class="site-logo">
-              <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/site-logo.svg" alt="site-logo">
+              <img src="./Assets/imgs/site-logo.svg" alt="site-logo">
             </div>
             <div class="menu">
               <ul>
@@ -45,7 +45,7 @@
               </ul>
             </div>
             <div class="search-bar">
-              <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/search-icon.svg" alt="search-icon">
+              <img src="./Assets/imgs/search-icon.svg" alt="search-icon">
             </div>
           </div>
         </div>
@@ -55,18 +55,18 @@
           <img src="./astraai.png" alt="robot">
         </div>
         <div class="circuit-art">
-          <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/GoodArtwork.svg" alt="GoodArtwork">
+          <img src="./Assets/imgs/GoodArtwork.svg" alt="GoodArtwork">
         </div>
         <div class="machine-art">
           <div class="machine-art-container">
-            <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/machin-rings.svg" alt="GoodArtwork">
+            <img src="./Assets/imgs/machin-rings.svg" alt="GoodArtwork">
             <div class="machine-lights-container">
-              <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/machine-lights.svg" alt="GoodArtwork">
+              <img src="./Assets/imgs/machine-lights.svg" alt="GoodArtwork">
             </div>
           </div>
         </div>
         <div class="circuit-art red">
-          <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/GoodArtwork-red.svg" alt="GoodArtwork">
+          <img src="./Assets/imgs/GoodArtwork-red.svg" alt="GoodArtwork">
         </div>
         <div class="banner-content">
           <div class="container">
@@ -79,11 +79,11 @@
                   <p class="p-lg text-pipe blue-text">Welcome To The Future</p>
                   <p>Built to amplify minds, challenge boundaries, and rewrite how the world works.</p>
                   <a href="#" id="play">
-                    <p class="on">EFFECTS ON</p>
-                    <p class="off">EFFECTS OFF</p>
+                    <p class="on">MACHINE ON</p>
+                    <p class="off">MACHINE OFF</p>
                     <span>
                       <span class="arrow"></span>
-                      <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/button-circle.svg" alt="button-circle">
+                      <img src="./Assets/imgs/button-circle.svg" alt="button-circle">
                     </span>
                   </a>
                 </div>
@@ -113,11 +113,11 @@
               <div class="col-md-12">
                 <div class="boon-bane-container">
                   <div class="boon">
-                    <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/BOON.png" alt="boon">
+                    <img src="./Assets/imgs/BOON.png" alt="boon">
                     <h1>A<span>S</span>TRA</h1>
                   </div>
                   <div class="bane">
-                    <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/BANE.png" alt="bane">
+                    <img src="./Assets/imgs/BANE.png" alt="bane">
                     <h1>SOF<span>T</span>
                     </h1>
                   </div>
@@ -129,6 +129,17 @@
       </div>
 
       
+      <!-- script to prevent users from accessing the page on mobile -->
+  <script>
+    // Run after page loads
+    window.onload = function() {
+      // Check if screen width is below 768px (common breakpoint for mobile)
+      if (window.innerWidth <= 768) {
+        window.location.href = "mobile.html"; // change to your redirect page
+      }
+    };
+  </script>
+
 
 
 
